@@ -17,5 +17,17 @@ The provided sources do not specify the exact monetary cost or pricing structure
 *   **Credits and Consumption:** The sources briefly mention that your usage—such as having Copilot process custom memory instructions with every prompt—could be viewed from a "consumption and a credits perspective," though they do not elaborate on how these credits are calculated or capped. 
 
 *Please note: Because the specific dollar amount for the Microsoft 365 Copilot license (such as the standard per-user monthly fee) is not included in the provided sources, you may want to independently verify the current pricing on Microsoft's official website.*
+The AB-730 exam relies heavily on scenario-based questions to test your ability to match the correct agent to a specific business problem. Here are the exact use cases and keywords to watch out for:
 
+**Copilot Researcher**
+*   **Exam Scenario:** You will likely see a scenario where a user needs to conduct deep research across both web sources and organizational documents to produce a comprehensive research report.
+*   **When to choose it:** You should select the Researcher agent when the scenario involves **strategy planning**, **exploring market trends**, or **understanding and summarizing research policies**. It excels at gathering information and synthesizing knowledge from multiple sources, rather than calculating data.
+
+**Copilot Analyst**
+*   **Exam Scenario:** A specific exam question asks which tool to use when a financial analyst needs to analyze a large Excel spreadsheet with sales data and generate trends using natural language, without writing any formulas. 
+*   **When to choose it:** You must choose the Analyst agent anytime the question mentions **numbers, pattern recognition, generating charts, or processing structured data**. This agent is unique because it uses a code interpreter (Python) to analyze unformatted data sets and output numeric results, pivot tables, or visual dashboards.
+
+**Custom Agents**
+*   **Exam Scenario:** The exam often presents a scenario where a business team wants to build a dedicated assistant to answer employee HR policy questions using only their internal SharePoint documents.
+*   **When to choose it:** You should recommend a Custom Agent when the scenario requires a **highly specific, targeted "mini-copilot" designed for a single, focused task**. Scenarios that require you to strictly define an agent's instructions, limit its grounding to a maximum of **20 specific knowledge sources**, or define up to 8 suggested prompts will require building a custom agent. Furthermore, if the scenario requires connecting the agent to external APIs, you will need to specify that the custom agent should be built using Microsoft Copilot Studio.
 Knowing exactly when a scenario calls for the Researcher, the Analyst, or a Custom Agent is heavily tested on the AB-730 exam.
